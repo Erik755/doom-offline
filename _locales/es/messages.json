@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) Offline - Easter Egg Sin Internet"
+  },
+  "extDescription": {
+    "message": "Juega al auténtico Doom clásico de 1993 cuando se corte el internet. Motor retro en WebAssembly 100% offline."
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "FPS RETRO CLÁSICO (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "Controles"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 EN LÍNEA"
+  },
+  "status_offline": {
+    "message": "🔴 SIN CONEXIÓN"
+  },
+  "dino_title": {
+    "message": "Sin conexión a internet"
+  },
+  "dino_subtitle": {
+    "message": "Mejor juega Doom mientras llega el internet."
+  },
+  "dino_btn": {
+    "message": "Presiona aquí para jugar"
+  },
+  "dino_chk_notify": {
+    "message": "Quiero que me avisen cuando recupere la conexión"
+  },
+  "dino_rotate_prompt": {
+    "message": "Voltea tu celular en horizontal para jugar en pantalla completa"
+  },
+  "online_alert_title": {
+    "message": "¡Conexión a Internet Recuperada!"
+  },
+  "online_alert_desc": {
+    "message": "El internet ha vuelto. Hemos pausado tu partida para que no pierdas tu avance."
+  },
+  "stay_in_game": {
+    "message": "🎮 Seguir Jugando"
+  },
+  "return_to_search": {
+    "message": "🌐 Regresar a mi búsqueda"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "DOOM1.WAD Shareware Oficial de id Software (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ HAZ CLIC PARA JUGAR"
+  },
+  "start_prompt_hint": {
+    "message": "Usa el teclado (WASD / Flechas / Espacio / Ctrl) o haz clic para apuntar con el mouse."
+  },
+  "controls_title": {
+    "message": "Controles Originales de DOOM (1993)"
+  },
+  "ctrl_move": {
+    "message": "Avanzar / Retroceder"
+  },
+  "ctrl_move_keys": {
+    "message": "W / S o ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "Girar Izquierda / Derecha"
+  },
+  "ctrl_turn_keys": {
+    "message": "A / D o ← / → (o Mouse)"
+  },
+  "ctrl_fire": {
+    "message": "Disparar Arma"
+  },
+  "ctrl_fire_keys": {
+    "message": "Ctrl Izquierdo o Clic Izquierdo"
+  },
+  "ctrl_use": {
+    "message": "Abrir Puertas / Interruptor"
+  },
+  "ctrl_use_keys": {
+    "message": "Barra Espaciadora o Enter"
+  },
+  "ctrl_run": {
+    "message": "Correr / Velocidad"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift"
+  },
+  "ctrl_weapons": {
+    "message": "Seleccionar Armas (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "Teclas 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "Automapa"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab"
+  },
+  "ctrl_menu": {
+    "message": "Menú Principal de Doom"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc"
+  },
+  "mouse_tip": {
+    "message": "💡 Haz clic sobre el lienzo del juego para activar el apuntado con Mouse (Pointer Lock)."
+  },
+  "wad_modal_title": {
+    "message": "Cargar WAD Personalizado / Mods"
+  },
+  "wad_drag_text": {
+    "message": "Arrastra y suelta tu archivo .WAD aquí"
+  },
+  "wad_drag_sub": {
+    "message": "Compatible con DOOM.WAD, DOOM2.WAD, TNT.WAD, PLUTONIA.WAD, SIGIL.WAD o PWADs."
+  },
+  "restore_default_wad": {
+    "message": "Restaurar DOOM1.WAD"
+  },
+  "browse_file": {
+    "message": "Explorar Archivo"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "Presiona ESC para salir del juego y habilitar tu mouse"
+  },
+  "save_offline_title": {
+    "message": "¿Quieres conservarlo para jugar offline?"
+  },
+  "save_offline_desc": {
+    "message": "Guardaremos el juego en la memoria de tu navegador para que puedas jugarlo siempre que te quedes sin internet."
+  },
+  "save_offline_yes": {
+    "message": "💾 SÍ, GUARDAR PARA JUGAR OFFLINE"
+  },
+  "save_offline_no": {
+    "message": "Ahora no"
+  },
+  "saving_offline": {
+    "message": "Guardando datos del juego en memoria..."
+  },
+  "save_offline_done": {
+    "message": "✅ ¡Guardado con éxito! Listo para jugar sin conexión."
+  }
+}

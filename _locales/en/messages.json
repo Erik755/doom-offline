@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) Offline - No Internet Easter Egg"
+  },
+  "extDescription": {
+    "message": "Play authentic classic Doom offline when internet dies. 100% offline WebAssembly retro FPS engine."
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "CLASSIC RETRO FPS (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "Controls"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 ONLINE"
+  },
+  "status_offline": {
+    "message": "🔴 OFFLINE"
+  },
+  "dino_title": {
+    "message": "No Internet Connection"
+  },
+  "dino_subtitle": {
+    "message": "Play Doom while waiting for internet to return."
+  },
+  "dino_btn": {
+    "message": "Press here to play"
+  },
+  "dino_chk_notify": {
+    "message": "Notify me when connection is restored"
+  },
+  "dino_rotate_prompt": {
+    "message": "Rotate your phone to landscape for fullscreen gameplay"
+  },
+  "online_alert_title": {
+    "message": "Internet Connection Restored!"
+  },
+  "online_alert_desc": {
+    "message": "Internet is back. Game has been paused so you don't lose progress."
+  },
+  "stay_in_game": {
+    "message": "🎮 Keep Playing"
+  },
+  "return_to_search": {
+    "message": "🌐 Return to my search"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "Official DOOM1.WAD Shareware by id Software (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ CLICK TO PLAY"
+  },
+  "start_prompt_hint": {
+    "message": "Use keyboard (WASD / Arrows / Space / Ctrl) or click to aim with mouse."
+  },
+  "controls_title": {
+    "message": "Original DOOM (1993) Controls"
+  },
+  "ctrl_move": {
+    "message": "Move Forward / Backward"
+  },
+  "ctrl_move_keys": {
+    "message": "W / S or ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "Turn Left / Right"
+  },
+  "ctrl_turn_keys": {
+    "message": "A / D or ← / → (or Mouse)"
+  },
+  "ctrl_fire": {
+    "message": "Fire Weapon"
+  },
+  "ctrl_fire_keys": {
+    "message": "Left Ctrl or Left Click"
+  },
+  "ctrl_use": {
+    "message": "Open Doors / Switches"
+  },
+  "ctrl_use_keys": {
+    "message": "Spacebar or Enter"
+  },
+  "ctrl_run": {
+    "message": "Sprint / Run"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift"
+  },
+  "ctrl_weapons": {
+    "message": "Select Weapons (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "Keys 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "Automap"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab"
+  },
+  "ctrl_menu": {
+    "message": "Doom Main Menu"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc"
+  },
+  "mouse_tip": {
+    "message": "💡 Click on game canvas to enable Mouse Look (Pointer Lock)."
+  },
+  "wad_modal_title": {
+    "message": "Load Custom WAD / Mods"
+  },
+  "wad_drag_text": {
+    "message": "Drag & drop your .WAD file here"
+  },
+  "wad_drag_sub": {
+    "message": "Supports DOOM.WAD, DOOM2.WAD, TNT.WAD, PLUTONIA.WAD, SIGIL.WAD, or PWADs."
+  },
+  "restore_default_wad": {
+    "message": "Reset to DOOM1.WAD"
+  },
+  "browse_file": {
+    "message": "Browse File"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "Press ESC to pause the game and release your mouse"
+  },
+  "save_offline_title": {
+    "message": "Do you want to save it to play offline?"
+  },
+  "save_offline_desc": {
+    "message": "We will save the game in your browser cache so you can play anytime, even without an internet connection."
+  },
+  "save_offline_yes": {
+    "message": "💾 YES, SAVE TO PLAY OFFLINE"
+  },
+  "save_offline_no": {
+    "message": "Not now"
+  },
+  "saving_offline": {
+    "message": "Saving game assets to local storage..."
+  },
+  "save_offline_done": {
+    "message": "✅ Successfully saved! Ready for offline play."
+  }
+}

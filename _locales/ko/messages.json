@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) 오프라인 - 인터넷 끊김 이스터에그"
+  },
+  "extDescription": {
+    "message": "인터넷이 끊겨도 플레이 가능한 1993년 오리지널 클래식 DOOM! 100% 오프라인 WebAssembly FPS."
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "클래식 레트로 FPS (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "조작법"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 온라인"
+  },
+  "status_offline": {
+    "message": "🔴 오프라인"
+  },
+  "dino_title": {
+    "message": "인터넷 연결 끊김"
+  },
+  "dino_subtitle": {
+    "message": "인터넷이 돌아올 때까지 Doom을 플레이하세요."
+  },
+  "dino_btn": {
+    "message": "여기를 눌러 게임 시작"
+  },
+  "dino_chk_notify": {
+    "message": "인터넷이 다시 연결되면 알림 받기"
+  },
+  "dino_rotate_prompt": {
+    "message": "전체 화면으로 플레이하려면 휴대폰을 가로로 회전하세요"
+  },
+  "online_alert_title": {
+    "message": "인터넷 연결이 복구되었습니다!"
+  },
+  "online_alert_desc": {
+    "message": "인터넷이 다시 연결되었습니다. 게임이 일시 정지되었습니다."
+  },
+  "stay_in_game": {
+    "message": "🎮 계속 플레이"
+  },
+  "return_to_search": {
+    "message": "🌐 검색 페이지로 돌아가기"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "id Software 공식 DOOM1.WAD 셰어웨어 (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ 클릭하여 게임 시작"
+  },
+  "start_prompt_hint": {
+    "message": "키보드(WASD / 방향키 / 스페이스바 / Ctrl) 또는 마우스로 조작하세요."
+  },
+  "controls_title": {
+    "message": "오리지널 DOOM (1993) 조작법"
+  },
+  "ctrl_move": {
+    "message": "전진 / 후진"
+  },
+  "ctrl_move_keys": {
+    "message": "W / S 또는 ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "좌 / 우 회전"
+  },
+  "ctrl_turn_keys": {
+    "message": "A / D 또는 ← / → (마우스)"
+  },
+  "ctrl_fire": {
+    "message": "무기 발사"
+  },
+  "ctrl_fire_keys": {
+    "message": "왼쪽 Ctrl 또는 좌클릭"
+  },
+  "ctrl_use": {
+    "message": "문 열기 / 스위치"
+  },
+  "ctrl_use_keys": {
+    "message": "스페이스바 또는 Enter"
+  },
+  "ctrl_run": {
+    "message": "달리기 / 질주"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift"
+  },
+  "ctrl_weapons": {
+    "message": "무기 선택 (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "숫자키 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "자동 지도"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab"
+  },
+  "ctrl_menu": {
+    "message": "메인 메뉴"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc"
+  },
+  "mouse_tip": {
+    "message": "💡 게임 화면을 클릭하면 마우스 조준(포인터 락)이 활성화됩니다."
+  },
+  "wad_modal_title": {
+    "message": "커스텀 WAD / 모드 로드"
+  },
+  "wad_drag_text": {
+    "message": ".WAD 파일을 여기에 드래그 앤 드롭하세요"
+  },
+  "wad_drag_sub": {
+    "message": "DOOM.WAD, DOOM2.WAD, TNT.WAD, SIGIL.WAD 및 커뮤니티 모드 지원."
+  },
+  "restore_default_wad": {
+    "message": "DOOM1.WAD로 초기화"
+  },
+  "browse_file": {
+    "message": "파일 찾기"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "ESC를 눌러 게임을 일시정지하고 마우스를 해제하세요"
+  },
+  "save_offline_title": {
+    "message": "오프라인 플레이용으로 저장하시겠습니까?"
+  },
+  "save_offline_desc": {
+    "message": "인터넷이 없을 때도 언제든지 플레이할 수 있도록 브라우저 캐시에 게임을 저장합니다."
+  },
+  "save_offline_yes": {
+    "message": "💾 예, 오프라인용으로 저장"
+  },
+  "save_offline_no": {
+    "message": "나중에"
+  },
+  "saving_offline": {
+    "message": "게임 데이터를 저장하는 중..."
+  },
+  "save_offline_done": {
+    "message": "✅ 저장 완료! 오프라인 플레이 준비 완료."
+  }
+}

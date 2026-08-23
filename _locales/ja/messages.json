@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) オフライン - 接続切断イースターエッグ"
+  },
+  "extDescription": {
+    "message": "ネット切断時も1993年伝説のDOOMをプレイ！WebAssembly搭載の完全オフラインFPS。"
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "クラシック レトロFPS (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "操作方法"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 オンライン"
+  },
+  "status_offline": {
+    "message": "🔴 オフライン"
+  },
+  "dino_title": {
+    "message": "インターネット接続がありません"
+  },
+  "dino_subtitle": {
+    "message": "ネットが復帰するまでDoomを遊ぼう！"
+  },
+  "dino_btn": {
+    "message": "ここを押してプレイ"
+  },
+  "dino_chk_notify": {
+    "message": "接続が復帰したら通知して戻る"
+  },
+  "dino_rotate_prompt": {
+    "message": "横画面に回転してフルスクリーンでプレイ"
+  },
+  "online_alert_title": {
+    "message": "インターネット接続が復帰しました！"
+  },
+  "online_alert_desc": {
+    "message": "ネットが繋がりました。ゲームを一時停止しました。"
+  },
+  "stay_in_game": {
+    "message": "🎮 ゲームを続ける"
+  },
+  "return_to_search": {
+    "message": "🌐 検索ページに戻る"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "id Software公式 DOOM1.WAD シェアウェア (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ クリックしてプレイ"
+  },
+  "start_prompt_hint": {
+    "message": "キーボード（WASD / 矢印 / スペース / Ctrl）またはマウスで操作。"
+  },
+  "controls_title": {
+    "message": "DOOM (1993) 原作操作キー"
+  },
+  "ctrl_move": {
+    "message": "前進 / 後退"
+  },
+  "ctrl_move_keys": {
+    "message": "W / S または ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "左 / 右旋回"
+  },
+  "ctrl_turn_keys": {
+    "message": "A / D または ← / → (マウス)"
+  },
+  "ctrl_fire": {
+    "message": "武器発射"
+  },
+  "ctrl_fire_keys": {
+    "message": "左Ctrl または 左クリック"
+  },
+  "ctrl_use": {
+    "message": "ドアを開く / スイッチ"
+  },
+  "ctrl_use_keys": {
+    "message": "スペース または Enter"
+  },
+  "ctrl_run": {
+    "message": "ダッシュ / 走る"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift"
+  },
+  "ctrl_weapons": {
+    "message": "武器切り替え (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "数字キー 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "オートマップ"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab"
+  },
+  "ctrl_menu": {
+    "message": "メインメニュー"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc"
+  },
+  "mouse_tip": {
+    "message": "💡 ゲーム画面をクリックするとマウス視点操作が有効になります。"
+  },
+  "wad_modal_title": {
+    "message": "カスタムWAD / MOD読込"
+  },
+  "wad_drag_text": {
+    "message": ".WADファイルをここにドラッグ＆ドロップ"
+  },
+  "wad_drag_sub": {
+    "message": "DOOM.WAD, DOOM2.WAD, TNT.WAD, SIGIL.WAD, 各種MOD対応。"
+  },
+  "restore_default_wad": {
+    "message": "DOOM1.WADに戻す"
+  },
+  "browse_file": {
+    "message": "ファイル選択"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "ESCキーでゲームを一時停止しマウスを解除"
+  },
+  "save_offline_title": {
+    "message": "オフライン用に保存しますか？"
+  },
+  "save_offline_desc": {
+    "message": "ブラウザにゲームをキャッシュ保存し、いつでもネットなしでプレイできるようにします。"
+  },
+  "save_offline_yes": {
+    "message": "💾 はい、オフライン用に保存する"
+  },
+  "save_offline_no": {
+    "message": "今はしない"
+  },
+  "saving_offline": {
+    "message": "ゲームデータをキャッシュ中..."
+  },
+  "save_offline_done": {
+    "message": "✅ 保存完了！オフラインで遊べます。"
+  }
+}

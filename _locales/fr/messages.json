@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) Offline - Easter Egg Sans Internet"
+  },
+  "extDescription": {
+    "message": "Jouez à l'authentique Doom classique de 1993 hors ligne. Moteur FPS rétro WebAssembly 100% hors ligne."
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "FPS RÉTRO CLASSIQUE (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "Commandes"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 EN LIGNE"
+  },
+  "status_offline": {
+    "message": "🔴 HORS LIGNE"
+  },
+  "dino_title": {
+    "message": "Aucune connexion Internet"
+  },
+  "dino_subtitle": {
+    "message": "Jouez plutôt à Doom en attendant le retour d'Internet."
+  },
+  "dino_btn": {
+    "message": "Appuyez ici pour jouer"
+  },
+  "dino_chk_notify": {
+    "message": "Prévenez-moi lorsque la connexion est rétablie"
+  },
+  "dino_rotate_prompt": {
+    "message": "Faites pivoter votre téléphone en paysage pour le plein écran"
+  },
+  "online_alert_title": {
+    "message": "Connexion Internet Rétablie !"
+  },
+  "online_alert_desc": {
+    "message": "Internet est de retour. Le jeu a été mis en pause."
+  },
+  "stay_in_game": {
+    "message": "🎮 Continuer à jouer"
+  },
+  "return_to_search": {
+    "message": "🌐 Revenir à ma recherche"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "DOOM1.WAD Shareware Officiel par id Software (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ CLIQUER POUR JOUER"
+  },
+  "start_prompt_hint": {
+    "message": "Utilisez le clavier (WASD / Flèches / Espace / Ctrl) ou cliquez pour viser à la souris."
+  },
+  "controls_title": {
+    "message": "Commandes d'origine de DOOM (1993)"
+  },
+  "ctrl_move": {
+    "message": "Avancer / Reculer"
+  },
+  "ctrl_move_keys": {
+    "message": "Z / S ou ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "Tourner Gauche / Droite"
+  },
+  "ctrl_turn_keys": {
+    "message": "Q / D ou ← / → (ou Souris)"
+  },
+  "ctrl_fire": {
+    "message": "Tirer"
+  },
+  "ctrl_fire_keys": {
+    "message": "Ctrl Gauche ou Clic Gauche"
+  },
+  "ctrl_use": {
+    "message": "Ouvrir Portes / Actionner"
+  },
+  "ctrl_use_keys": {
+    "message": "Espace ou Entrée"
+  },
+  "ctrl_run": {
+    "message": "Courir / Vitesse"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift"
+  },
+  "ctrl_weapons": {
+    "message": "Sélectionner Armes (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "Touches 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "Automap"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab"
+  },
+  "ctrl_menu": {
+    "message": "Menu Principal Doom"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc"
+  },
+  "mouse_tip": {
+    "message": "💡 Cliquez sur le jeu pour verrouiller la souris et viser."
+  },
+  "wad_modal_title": {
+    "message": "Charger un WAD Personnalisé / Mods"
+  },
+  "wad_drag_text": {
+    "message": "Glissez et déposez votre fichier .WAD ici"
+  },
+  "wad_drag_sub": {
+    "message": "Prend en charge DOOM.WAD, DOOM2.WAD, TNT.WAD, SIGIL.WAD ou PWADs."
+  },
+  "restore_default_wad": {
+    "message": "Réinitialiser DOOM1.WAD"
+  },
+  "browse_file": {
+    "message": "Parcourir"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "Appuyez sur ÉCHAP pour quitter le jeu et libérer la souris"
+  },
+  "save_offline_title": {
+    "message": "Voulez-vous l'enregistrer pour jouer hors ligne ?"
+  },
+  "save_offline_desc": {
+    "message": "Nous enregistrerons le jeu dans votre navigateur pour que vous puissiez y jouer sans connexion."
+  },
+  "save_offline_yes": {
+    "message": "💾 OUI, ENREGISTRER HORS LIGNE"
+  },
+  "save_offline_no": {
+    "message": "Pas maintenant"
+  },
+  "saving_offline": {
+    "message": "Enregistrement en mémoire..."
+  },
+  "save_offline_done": {
+    "message": "✅ Enregistré avec succès ! Prêt pour le hors ligne."
+  }
+}

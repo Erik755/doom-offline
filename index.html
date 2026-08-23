@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>DOOM (1993) - Authentic Original FPS (Offline)</title>
+  <meta name="description" content="Auténtico Doom original de 1993 en tu navegador. 100% Offline mediante WebAssembly con DOOM1.WAD Shareware oficial.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css?v=1.0.5">
+</head>
+<body>
+
+  <!-- Minimalist Clean Top Bar -->
+  <header class="top-nav" id="topNav">
+    <div class="nav-brand">
+      <img src="icons/icon-32.png" alt="DOOM" class="nav-logo">
+      <span class="nav-title" data-i18n="header_title">DOOM (1993)</span>
+      <span id="connectionBadge" class="nav-badge online" data-i18n="status_online">🟢 EN LÍNEA</span>
+    </div>
+
+    <div class="nav-controls">
+      <select id="langSelect" class="nav-select" aria-label="Idioma">
+        <option value="es">🇪🇸 Español</option>
+        <option value="en">🇺🇸 English</option>
+        <option value="pt_BR">🇧🇷 Português</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="ko">🇰🇷 한국어</option>
+        <option value="zh_CN">🇨🇳 简体中文</option>
+      </select>
+      <button id="btnToggleTouch" class="nav-btn" title="Mostrar/Ocultar Controles Táctiles">📱 <span data-i18n="toggle_touch">Gamepad</span></button>
+      <button id="btnControls" class="nav-btn" title="Ver Controles">🎮 <span data-i18n="controls">Controles</span></button>
+      <button id="btnLoadWad" class="nav-btn" title="Cargar WAD propio">📁 <span data-i18n="load_wad">WAD</span></button>
+    </div>
+  </header>
+
+  <!-- Authentic Doom Canvas Container -->
+  <main class="game-viewport">
+    <!-- 1. Offline Dinosaur Easter Egg Landing Screen -->
+    <div id="dinoLanding" class="dino-screen">
+      <div class="dino-box">
+        <div class="dino-icon-art">
+          <svg width="72" height="72" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="26" y="4" width="14" height="12" fill="#535353"/>
+            <rect x="36" y="6" width="2" height="2" fill="#fff"/>
+            <rect x="22" y="10" width="4" height="10" fill="#535353"/>
+            <rect x="18" y="16" width="16" height="16" fill="#535353"/>
+            <rect x="14" y="20" width="4" height="10" fill="#535353"/>
+            <rect x="10" y="22" width="4" height="6" fill="#535353"/>
+            <rect x="6" y="24" width="4" height="4" fill="#535353"/>
+            <rect x="18" y="32" width="4" height="10" fill="#535353"/>
+            <rect x="18" y="40" width="8" height="4" fill="#535353"/>
+            <rect x="28" y="32" width="4" height="8" fill="#535353"/>
+            <rect x="28" y="38" width="6" height="4" fill="#535353"/>
+            <circle cx="38" cy="8" r="4" fill="#ff3b30"/>
+          </svg>
+        </div>
+        <h1 class="dino-title" data-i18n="dino_title">Sin conexión a internet</h1>
+        <p class="dino-subtitle" data-i18n="dino_subtitle">Mejor juega Doom mientras llega el internet.</p>
+        <button id="btnDinoPlay" class="btn-dino-doom" data-i18n="dino_btn">Presiona aquí para jugar</button>
+        
+        <div class="dino-notify-option">
+          <label class="dino-checkbox-label">
+            <input type="checkbox" id="chkNotifyOnline" checked>
+            <span class="chk-custom-box"></span>
+            <span class="chk-text" data-i18n="dino_chk_notify">Quiero que me avisen cuando recupere la conexión</span>
+          </label>
+        </div>
+
+        <p class="dino-error-tag">ERR_INTERNET_DISCONNECTED &bull; DOOM (1993) EASTER EGG</p>
+      </div>
+    </div>
+
+    <!-- The Game Canvas (Rendered by Chocolate Doom WebAssembly) -->
+    <canvas id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
+
+    <!-- Persistent Desktop HUD Escape/Mouse Release Note (Outside the 4:3 game area) -->
+    <aside id="hudEscHint" class="hud-esc-hint">
+      <div class="hud-hint-inner">
+        <span class="hud-icon">💡</span>
+        <span class="hud-text" data-i18n="hint_esc_mouse">Presiona ESC para salir del juego y habilitar tu mouse</span>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Touch Overlay for Mobile / Tablets -->
+  <div id="touchController" class="touch-overlay">
+    <!-- Quick Keys Top -->
+    <div class="touch-top-keys">
+      <button class="t-btn t-small" data-key="Tab" data-i18n="touch_map">MAP</button>
+      <button class="t-btn t-small" data-key="Escape" data-i18n="touch_esc">ESC</button>
+      <button class="t-btn t-small" data-key="Digit1">1</button>
+      <button class="t-btn t-small" data-key="Digit2">2</button>
+      <button class="t-btn t-small" data-key="Digit3">3</button>
+      <button class="t-btn t-small" data-key="Digit4">4</button>
+      <button class="t-btn t-small" data-key="Digit5">5</button>
+      <button class="t-btn t-small" data-key="Digit6">6</button>
+      <button class="t-btn t-small" data-key="Digit7">7</button>
+    </div>
+
+    <div class="touch-controls-bottom-row">
+      <!-- D-Pad Left -->
+      <div class="touch-dpad">
+        <button class="t-btn t-up" data-key="ArrowUp">▲</button>
+        <button class="t-btn t-left" data-key="ArrowLeft">◀</button>
+        <button class="t-btn t-enter" data-key="Enter">ENT</button>
+        <button class="t-btn t-right" data-key="ArrowRight">▶</button>
+        <button class="t-btn t-down" data-key="ArrowDown">▼</button>
+      </div>
+
+      <!-- Action Cluster Right -->
+      <div class="touch-actions">
+        <div class="touch-row">
+          <button class="t-btn t-action t-run" data-key="ShiftLeft" data-i18n="touch_run">RUN</button>
+          <button class="t-btn t-action t-use" data-key="Space" data-i18n="touch_use">USE</button>
+        </div>
+        <div class="touch-row">
+          <button class="t-btn t-action t-fire" data-key="ControlLeft" data-i18n="touch_fire">FIRE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls Modal -->
+  <div id="controlsModal" class="modal-backdrop hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h2 data-i18n="controls_title">Controles Originales de DOOM (1993)</h2>
+        <button id="btnCloseControls" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="controls-table">
+        <div class="ctrl-row"><span data-i18n="ctrl_move">Avanzar / Retroceder</span> <b data-i18n="ctrl_move_keys">W / S o ↑ / ↓</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_turn">Girar Izquierda / Derecha</span> <b data-i18n="ctrl_turn_keys">A / D o ← / → (o Mouse)</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_fire">Disparar Arma</span> <b data-i18n="ctrl_fire_keys">Ctrl Izquierdo o Clic Izquierdo</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_use">Abrir Puerta / Interruptor</span> <b data-i18n="ctrl_use_keys">Barra Espaciadora o Enter</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_run">Correr / Velocidad</span> <b data-i18n="ctrl_run_keys">Shift</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_weapons">Seleccionar Armas (1 - 7)</span> <b data-i18n="ctrl_weapons_keys">Teclas 1, 2, 3, 4, 5, 6, 7</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_map">Automapa</span> <b data-i18n="ctrl_map_keys">Tab</b></div>
+        <div class="ctrl-row"><span data-i18n="ctrl_menu">Menú Principal de Doom</span> <b data-i18n="ctrl_menu_keys">Esc</b></div>
+      </div>
+      <p style="text-align: center; color: #888; font-size: 0.8rem; margin-top: 12px;" data-i18n="mouse_tip">💡 Haz clic sobre el lienzo del juego para activar el apuntado con Mouse (Pointer Lock).</p>
+    </div>
+  </div>
+
+  <!-- Custom WAD Modal -->
+  <div id="wadModal" class="modal-backdrop hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h2 data-i18n="wad_modal_title">Cargar WAD Personalizado / Mods</h2>
+        <button id="btnCloseWad" class="modal-close-btn">&times;</button>
+      </div>
+      <div id="dropTarget" class="wad-drop-box">
+        <div style="font-size: 2.2rem; margin-bottom: 8px;">📦</div>
+        <p style="font-weight: bold; margin-bottom: 4px;" data-i18n="wad_drag_text">Arrastra y suelta tu archivo .WAD aquí</p>
+        <p style="font-size: 0.8rem; color: #888;" data-i18n="wad_drag_sub">Compatible con DOOM.WAD, DOOM2.WAD, TNT.WAD, PLUTONIA.WAD, SIGIL.WAD o PWADs.</p>
+        <input type="file" id="wadFileInput" accept=".wad" style="display: none;">
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <button id="btnResetDefaultWad" class="nav-btn" data-i18n="restore_default_wad">Restaurar DOOM1.WAD</button>
+        <button id="btnBrowseFile" class="nav-btn btn-highlight" data-i18n="browse_file">Explorar Archivo</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Connection Restored Notification Modal -->
+  <div id="onlineAlertModal" class="modal-backdrop hidden">
+    <div class="modal-window online-alert-box">
+      <div style="font-size: 2.8rem; margin-bottom: 8px;">🌐⚡</div>
+      <h2 style="color: #70e000; font-size: 1.4rem; margin-bottom: 8px;" data-i18n="online_alert_title">¡Conexión a Internet Recuperada!</h2>
+      <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.4; margin-bottom: 22px;" data-i18n="online_alert_desc">El internet ha vuelto. Hemos pausado tu partida para que no pierdas tu avance.</p>
+      <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+        <button id="btnStayInGame" class="nav-btn" data-i18n="stay_in_game">🎮 Seguir Jugando</button>
+        <button id="btnReturnToSearch" class="nav-btn btn-highlight" data-i18n="return_to_search">🌐 Regresar a mi búsqueda</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=1.0.5"></script>
+</body>
+</html>

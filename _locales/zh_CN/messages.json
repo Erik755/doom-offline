@@ -1,0 +1,173 @@
+{
+  "extName": {
+    "message": "DOOM (1993) 离线版 - 断网彩蛋游戏"
+  },
+  "extDescription": {
+    "message": "断网时畅玩1993年经典原版DOOM毁灭战士！基于WebAssembly的100%纯离线复古FPS引擎。"
+  },
+  "header_title": {
+    "message": "DOOM (1993)"
+  },
+  "header_sub": {
+    "message": "经典复古FPS (1993)"
+  },
+  "toggle_touch": {
+    "message": "Gamepad"
+  },
+  "controls": {
+    "message": "按键操作"
+  },
+  "load_wad": {
+    "message": "WAD"
+  },
+  "status_online": {
+    "message": "🟢 在线"
+  },
+  "status_offline": {
+    "message": "🔴 离线"
+  },
+  "dino_title": {
+    "message": "未连接到互联网"
+  },
+  "dino_subtitle": {
+    "message": "不如在等待网络恢复时玩玩 Doom！"
+  },
+  "dino_btn": {
+    "message": "点击此处开始游戏"
+  },
+  "dino_chk_notify": {
+    "message": "网络恢复时提醒我返回搜索"
+  },
+  "dino_rotate_prompt": {
+    "message": "将手机横屏以获得全屏游戏体验"
+  },
+  "online_alert_title": {
+    "message": "网络连接已恢复！"
+  },
+  "online_alert_desc": {
+    "message": "已重新连接到互联网，游戏已暂停以保留进度。"
+  },
+  "stay_in_game": {
+    "message": "🎮 继续游戏"
+  },
+  "return_to_search": {
+    "message": "🌐 返回我的搜索"
+  },
+  "start_prompt_title": {
+    "message": "DOOM"
+  },
+  "start_prompt_desc": {
+    "message": "id Software 官方 DOOM1.WAD 共享版 (1993)"
+  },
+  "start_prompt_btn": {
+    "message": "▶ 点击开始游戏"
+  },
+  "start_prompt_hint": {
+    "message": "使用键盘（WASD / 方向键 / 空格 / Ctrl）或点击鼠标锁定视角。"
+  },
+  "controls_title": {
+    "message": "DOOM (1993) 原版键位指南"
+  },
+  "ctrl_move": {
+    "message": "前进 / 后退"
+  },
+  "ctrl_move_keys": {
+    "message": "W / S 或 ↑ / ↓"
+  },
+  "ctrl_turn": {
+    "message": "左转 / 右转"
+  },
+  "ctrl_turn_keys": {
+    "message": "A / D 或 ← / → (或鼠标)"
+  },
+  "ctrl_fire": {
+    "message": "开火射击"
+  },
+  "ctrl_fire_keys": {
+    "message": "左 Ctrl 或 鼠标左键"
+  },
+  "ctrl_use": {
+    "message": "开门 / 触发开关"
+  },
+  "ctrl_use_keys": {
+    "message": "空格键 或 回车键"
+  },
+  "ctrl_run": {
+    "message": "加速奔跑"
+  },
+  "ctrl_run_keys": {
+    "message": "Shift 键"
+  },
+  "ctrl_weapons": {
+    "message": "切换武器 (1 - 7)"
+  },
+  "ctrl_weapons_keys": {
+    "message": "数字键 1, 2, 3, 4, 5, 6, 7"
+  },
+  "ctrl_map": {
+    "message": "自动地图"
+  },
+  "ctrl_map_keys": {
+    "message": "Tab 键"
+  },
+  "ctrl_menu": {
+    "message": "Doom 主菜单"
+  },
+  "ctrl_menu_keys": {
+    "message": "Esc 键"
+  },
+  "mouse_tip": {
+    "message": "💡 点击游戏画面可锁定鼠标进行视角转动。"
+  },
+  "wad_modal_title": {
+    "message": "加载自定义WAD / 模组"
+  },
+  "wad_drag_text": {
+    "message": "将 .WAD 文件拖拽至此处"
+  },
+  "wad_drag_sub": {
+    "message": "支持 DOOM.WAD、DOOM2.WAD、TNT.WAD、SIGIL.WAD 及社区各类PWAD模组。"
+  },
+  "restore_default_wad": {
+    "message": "恢复默认 DOOM1.WAD"
+  },
+  "browse_file": {
+    "message": "浏览文件"
+  },
+  "touch_map": {
+    "message": "MAP"
+  },
+  "touch_esc": {
+    "message": "ESC"
+  },
+  "touch_run": {
+    "message": "RUN"
+  },
+  "touch_use": {
+    "message": "USE"
+  },
+  "touch_fire": {
+    "message": "FIRE"
+  },
+  "hint_esc_mouse": {
+    "message": "按 ESC 键暂停游戏并释放鼠标光标"
+  },
+  "save_offline_title": {
+    "message": "是否保存以便离线游玩？"
+  },
+  "save_offline_desc": {
+    "message": "我们将游戏保存至浏览器缓存，以便在没有网络时随时游玩。"
+  },
+  "save_offline_yes": {
+    "message": "💾 是的，保存以便离线游玩"
+  },
+  "save_offline_no": {
+    "message": "暂不需要"
+  },
+  "saving_offline": {
+    "message": "正在将游戏资源保存至本地..."
+  },
+  "save_offline_done": {
+    "message": "✅ 保存成功！已可随时离线游玩。"
+  }
+}
